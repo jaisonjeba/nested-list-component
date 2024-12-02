@@ -1,0 +1,55 @@
+.hierarchy-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.list-item {
+  margin: 5px 0;
+}
+
+.list-item-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-item-label:hover {
+  text-decoration: underline;
+}
+
+.expand-icon {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #007bff;
+}
+
+.level-0 .list-item-label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.level-1 .list-item-label {
+  font-size: 1.1em;
+}
+
+.level-2 .list-item-label {
+  font-size: 1em;
+}
+
+.level-3 .list-item-label {
+  font-size: 0.9em;
+}
